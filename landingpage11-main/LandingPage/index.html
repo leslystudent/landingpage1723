@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- referencia de los estilos css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    
+  </head>
+
+  <body>
+    <!--################## aqui inicia la barra de navegacion################## -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Servicios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="">Desarrollo web</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Mantenimiento hardware y software</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Mesa de ayuda</a>
+                </li>
+              </ul>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              <i class='bx bx-search'></i>Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- ########################### aqui finaliza la barra de navegacion ###############-->
+
+    <!--###################### aqui empieza sesion de inicio ######################### --> 
+    <section class="section-inicio">
+      <div class="container-inicio">
+        <h1>
+          <span class="servicios-inicio">Isotipo de la empresa</span>
+        </h1>
+        <h6>Ofrecemos Soluciones tecnologicas de calidad</h6>
+        
+        <a href="#nosotros" class="btn-inicio ">Empieza</a>
+       
+      </div>
+      <div> <img src="./img/Illustration.png" alt=""></div>
+
+    </section>
+    
+
+    <!--################################## aqui termina sesion de inicio ############### -->
+
+    <!--################################## aqui inicia sesion de nostros ############### -->
+
+    
+    <section id="nosotros">
+
+        
+        <div class="section-nosotros">
+          <h1">NOSOTROS</h1>
+          <div class="container-nosotros">
+            <h5>
+              <span class="servicios-inicio">contandote un poco de nosotros</span>
+            </h5>
+            
+            
+            <h6>valores que predominan en la empresa Liderazgo, colaboración, integridad, responsabilidad, pasión, diversidad y calidad. Aprendizaje, éxito e inclusión. Seguridad, colaboración y creatividad. Innovación, trabajo en equipo, sustentabilidad e impacto social asemos que te sientas bien en cuanto dentres ala empresa somos un grupo de tecnicos en sistma estudiantil del grado 11°2 que quiere emprender y poderles colaboramos mas para que esten satifechos</h6>
+            
+            
+           
+          </div>
+          <div> <img class="imagen" src="img/seg.png" alt=""></div>
+    
+        </section>
+        <!-- busque ejemplos y crea un texto que hable de lo que realiza y a lo que se dedica la empresa, tra de especificar valores empresariales, busque una imagen que de continuidad al diseño usado, recuerde que debe darle estilos, primero el diseño debe estar pensado en moviles (celulares), tenga en cuenta el ejemplo de la sesion de inicio para que pueda elaborarlo -->
+
+
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
